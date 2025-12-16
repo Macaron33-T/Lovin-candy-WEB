@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <nav className="bg-[#A6EAFF] text-black p-4">
-      <ul className="flex gap-8">
+      <ul className="flex gap-8 justify-center font-['Jua'] text-2xl">
         <li>
           <Link to="/">Home</Link>
         </li>
-        {/* <li>
+        <li>
           <Link to="/customize">Customize</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/product">Product</Link>
         </li>
         <li>
