@@ -23,6 +23,9 @@ export default function Navbar() {
         <li>
           <Link to="/register">Register</Link>
         </li> */}
+        <li>
+          <Link to="/myprofile">My Profile</Link>
+        </li>
       </ul>
     </nav>
   )

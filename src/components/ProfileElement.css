@@ -1,0 +1,60 @@
+.element-a {
+  margin: 20px;
+  padding: 120px 100px;
+  background: white;
+  border-radius: 2rem;
+  box-shadow: 0 1px 10px rgba(192, 192, 192, 0.5);
+  font-family: "Patrick Hand", cursive;
+}
+
+.element-b {
+  background-color: white;
+  border-radius: 2rem;
+  box-shadow: 0 1px 10px rgba(192, 192, 192, 0.5);
+  padding: 20px;
+  margin-top: 200px;
+
+  display: flex;
+  align-items: center;
+  align-content: center;
+  
+}
+
+.profile-a {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: auto;
+  margin-top: 80px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.profile-b {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+
+}
+
+.tableb {
+  display: table;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.my-profile {
+  display: flex;
+  align-items: flex-start;
+}
+
+.picpic {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  display: flex;
+  align-items: start;
+}
