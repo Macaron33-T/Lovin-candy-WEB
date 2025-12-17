@@ -2,6 +2,7 @@ import ProfileElementA from "../components/ProfileElementA";
 import ProfileElementB from "../components/ProfileElementB";
 import '../components/ProfileElement.css';
 import ProfileElementC from "../components/ProfileElementC";
+import ProfileElementD from "../components/ProfileElementD";
 
 export default function MyProfile() {
   return (
@@ -26,7 +27,9 @@ export default function MyProfile() {
           <div className="profile-c">
           <ProfileElementC />
         </div>
-
+        <div className="profile-d">
+          <ProfileElementD />
+        </div>
         </div>
       </div>
       
