@@ -7,6 +7,7 @@ import MyOrder from "./views/MyOrder";
 import MyFavItems from "./views/MyFavItems";
 import MyAddress from "./views/MyAddress";
 import MyPayment from "./views/MyPayment";
+import Products from "./views/Products";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
     ),
   children: [
     {path: "/", element: <Home />,},
+    {path: "/products", element: <Products />},
     {path: "/customize", element: <Customize />,},
     {path: "/profile", element: <MyProfile />,},
     {path: "/profile/order", element: <MyOrder />,},
