@@ -5,7 +5,10 @@ import { AiOutlineUnlock } from "react-icons/ai";
 
 const Register = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#AEEBFF]">
+    <div
+      className="min-h-screen flex items-center justify-center bg-[#d3f3fd] shadow-[0_20px_50px_-20px_rgba(0,0,0,0.25)]
+"
+    >
       <div className="w-[380px] bg-white/80 border border-white rounded-2xl p-8 shadow-2xl backdrop-blur-md">
         <h1 className="text-4xl text-[#2B3A55] font-extrabold text-center mb-10">
           Register
