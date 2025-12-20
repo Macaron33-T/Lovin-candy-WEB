@@ -3,7 +3,7 @@ const specialSets = [
     id: 1,
     name: "NewYearSetS",
     desc: "Soft & fruity delight",
-    image: "public/NewYearSetS.png",
+    image: "NewYearSetS.png",
   },
   {
     id: 2,
@@ -15,37 +15,37 @@ const specialSets = [
     id: 3,
     name: "NewYearSetL",
     desc: "Made your day!",
-    image: "public/NewYearSetL.png",
+    image: "NewYearSetL.png",
   },
   {
     id: 4,
     name: "NewYearSetXL",
     desc: "Jellalalo!",
-    image: "public/NewYearSetXL.png",
+    image: "NewYearSetXL.png",
   },
   {
     id: 5,
     name: "XmasSetS",
     desc: "Soft & fruity deligh",
-    image: "public/XmasSetS.png",
+    image: "XmasSetS.png",
   },
   {
     id: 6,
     name: "XmasSetM",
     desc: "Colorful happiness",
-    image: "public/XmasSetM.png",
+    image: "XmasSetM.png",
   },
   {
     id: 7,
     name: "XmasSetL",
     desc: "Made your day!",
-    image: "public/XmasSetL.png",
+    image: "XmasSetL.png",
   },
   {
     id: 8,
     name: "XmasSetXL",
     desc: "Lollalilo",
-    image: "public/XmasSetXL.png",
+    image: "XmasSetXL.png",
   },
 ];
 
