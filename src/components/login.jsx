@@ -1,4 +1,7 @@
 // import React from "react";
+import { Link } from "react-router-dom";
+import { Biuser } from "react-icons/bi";
+import { AiOutLineUnlock } from "react-icons/ai";
 
 const login = () => {
   return (
@@ -20,6 +23,7 @@ const login = () => {
             >
               Your Email
             </label>
+            <Biuser className="absolute top-4 right-4" />
           </div>
           <div className="relative my-4">
             <input
@@ -33,21 +37,30 @@ const login = () => {
             >
               Your Password
             </label>
+            <AiOutLineUnlock className="absolute top-4 right-4" />
           </div>
-          <div>
-            <div>
-              <inpit type="checkbox" name="" id="" />
-              <label htmlFor="Remember Me"></label>
+          <div className="flex justify-between items-center">
+            <div className="flex gap-2 items-center">
+              <input type="checkbox" name="" id="" />
+              <label htmlFor="Remember Me">Remember Me</label>
             </div>
-            <span>Forgot Password?</span>
+            <Link to="" className="text-blue-500">
+              Forgot Password?
+            </Link>
           </div>
-          <button className="" type="submit">
+          <button
+            className="w-full mb-4 text-[18px] mt-6 rounded-full bg-white text-pink-500 hover:bg-pink-500 hover:text-white py-2 transition-colors duration-300s "
+            type="submit"
+          >
             Login
           </button>
           <div>
-            <spn>
-              New Here? <Link to="Register">Create an Account</Link>
-            </spn>
+            <span className="m-4 ">
+              New Here?{" "}
+              <Link className="text-blue-500" to="/Register">
+                Create an Account
+              </Link>
+            </span>
           </div>
         </form>
       </div>

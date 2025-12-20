@@ -10,6 +10,8 @@ import MyPayment from "./views/MyProfile-pages/MyPayment";
 import Products from "./views/Products";
 import Admin from "./views/Admin";
 import AdminLayout from "./components/Admin/AdminLayout";
+import Register from "./components/Register";
+import Login from "./components/login";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +41,8 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
+      <Route path="Login" element={<Login />} />
+      <Route path="Register" element={<Register />} />
     </>
   );
 }
